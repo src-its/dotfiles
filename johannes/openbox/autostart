@@ -1,1 +1,11 @@
+#Tint 2
+
 (sleep 2s && tint2) &
+
+#Autostart Tint 2
+tint2 &
+
+#Autostart Nitrogen
+nitrogen --restore &
+
+exec ck-launch-session openbox-session
